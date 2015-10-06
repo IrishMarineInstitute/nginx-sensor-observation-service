@@ -1,0 +1,800 @@
+2015/09/25 21:20:14 [notice] 7472#1072: nginx/1.9.5.1 Lizard
+2015/09/25 21:20:14 [info] 7472#1072: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/25 21:20:14 [notice] 7472#1072: create thread 5116
+2015/09/25 21:20:14 [notice] 7472#1072: create thread 8068
+2015/09/25 21:20:14 [notice] 7472#1072: create thread 9136
+2015/09/25 21:20:26 [notice] 8408#4128: using the "select-boost" event method
+2015/09/25 21:20:26 [notice] 8408#4128: nginx/1.9.5.1 Lizard
+2015/09/25 21:20:26 [info] 8408#4128: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/25 21:20:26 [notice] 8408#4128: start worker processes
+2015/09/25 21:20:26 [notice] 8408#4128: start worker process 6872
+2015/09/25 21:20:27 [notice] 6872#8504: nginx/1.9.5.1 Lizard
+2015/09/25 21:20:27 [info] 6872#8504: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/25 21:20:27 [notice] 6872#8504: create thread 8128
+2015/09/25 21:20:27 [notice] 6872#8504: create thread 6380
+2015/09/25 21:20:27 [notice] 6872#8504: create thread 6244
+2015/09/25 21:20:32 [notice] 6872#8128: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 21:20:32 [notice] 6872#8128: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=arg_REQUEST&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 21:20:32 [notice] 6872#8128: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 21:20:32 [notice] 6872#8128: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=arg_REQUEST&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=arg_REQUEST&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 21:20:32 [error] 6872#8128: *1 CreateFile() "c:\nginx-1.9.5.1/html/service/SOS/acceptversions/v1d0d0" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 21:20:45 [info] 6872#8128: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/25 21:20:45 [info] 6872#8128: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/25 21:21:35 [notice] 8408#4128: worker process 6872 exited with code 1
+2015/09/25 21:21:35 [notice] 8408#4128: start worker process 1724
+2015/09/25 21:21:35 [notice] 1724#5292: nginx/1.9.5.1 Lizard
+2015/09/25 21:21:35 [info] 1724#5292: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/25 21:21:35 [notice] 1724#5292: create thread 2204
+2015/09/25 21:21:35 [notice] 1724#5292: create thread 7608
+2015/09/25 21:21:35 [notice] 1724#5292: create thread 7832
+2015/09/25 21:21:39 [notice] 8408#4128: worker process 1724 exited with code 1
+2015/09/25 21:21:39 [notice] 8408#4128: start worker process 1432
+2015/09/25 21:21:39 [notice] 1432#6112: nginx/1.9.5.1 Lizard
+2015/09/25 21:21:39 [info] 1432#6112: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/25 21:21:39 [notice] 1432#6112: create thread 4516
+2015/09/25 21:21:39 [notice] 1432#6112: create thread 8432
+2015/09/25 21:21:39 [notice] 1432#6112: create thread 7956
+2015/09/25 21:21:53 [notice] 8000#7368: using the "select-boost" event method
+2015/09/25 21:21:53 [notice] 8000#7368: nginx/1.9.5.1 Lizard
+2015/09/25 21:21:53 [info] 8000#7368: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/25 21:21:53 [notice] 8000#7368: start worker processes
+2015/09/25 21:21:53 [notice] 8000#7368: start worker process 8208
+2015/09/25 21:21:54 [notice] 8208#5512: nginx/1.9.5.1 Lizard
+2015/09/25 21:21:54 [info] 8208#5512: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/25 21:21:54 [notice] 8208#5512: create thread 7864
+2015/09/25 21:21:54 [notice] 8208#5512: create thread 6140
+2015/09/25 21:21:54 [notice] 8208#5512: create thread 496
+2015/09/25 21:22:00 [notice] 8208#7864: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 21:22:00 [notice] 8208#7864: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=arg_REQUEST&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 21:22:00 [notice] 8208#7864: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 21:22:00 [notice] 8208#7864: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=arg_REQUEST&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=arg_REQUEST&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 21:22:00 [error] 8208#7864: *1 CreateFile() "c:\nginx-1.9.5.1/html/service/SOS/acceptversions/v1d0d0" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 21:22:10 [info] 8208#7864: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/25 21:22:20 [info] 8208#7864: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/25 21:23:52 [notice] 8000#7368: worker process 8208 exited with code 1
+2015/09/25 21:23:52 [notice] 8000#7368: start worker process 8392
+2015/09/25 21:23:52 [notice] 8392#7500: nginx/1.9.5.1 Lizard
+2015/09/25 21:23:52 [info] 8392#7500: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/25 21:23:52 [notice] 8392#7500: create thread 7596
+2015/09/25 21:23:52 [notice] 8392#7500: create thread 7344
+2015/09/25 21:23:52 [notice] 8392#7500: create thread 5256
+2015/09/25 21:24:07 [notice] 7100#8972: using the "select-boost" event method
+2015/09/25 21:24:07 [notice] 7100#8972: nginx/1.9.5.1 Lizard
+2015/09/25 21:24:07 [info] 7100#8972: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/25 21:24:07 [notice] 7100#8972: start worker processes
+2015/09/25 21:24:07 [notice] 7100#8972: start worker process 5596
+2015/09/25 21:24:08 [notice] 5596#3784: nginx/1.9.5.1 Lizard
+2015/09/25 21:24:08 [info] 5596#3784: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/25 21:24:08 [notice] 5596#3784: create thread 6324
+2015/09/25 21:24:08 [notice] 5596#3784: create thread 5808
+2015/09/25 21:24:08 [notice] 5596#3784: create thread 5656
+2015/09/25 21:24:15 [notice] 5596#6324: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 21:24:15 [notice] 5596#6324: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 21:24:15 [notice] 5596#6324: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 21:24:15 [notice] 5596#6324: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 21:24:15 [notice] 5596#6324: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 21:24:15 [notice] 5596#6324: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=flourometer&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=flourometer&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", args: "REQUEST=GetObservation&OFFERING=flourometer&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 "^" matches "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", args: "REQUEST=GetObservation&OFFERING=flourometer&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 "^" matches "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", args: "REQUEST=GetObservation&OFFERING=flourometer&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 "^" matches "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", args: "REQUEST=GetObservation&OFFERING=flourometer&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 "^" matches "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", args: "REQUEST=GetObservation&OFFERING=flourometer&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 "^" matches "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", args: "REQUEST=GetObservation&OFFERING=flourometer&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 "^" matches "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", args: "REQUEST=GetObservation&OFFERING=flourometer&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 "^" matches "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", args: "REQUEST=GetObservation&OFFERING=flourometer&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 "^" matches "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [notice] 5596#6324: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", args: "REQUEST=GetObservation&OFFERING=flourometer&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:25 [error] 5596#6324: *1 rewrite or internal redirection cycle while processing "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/flourometer", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=flourometer HTTP/1.1", host: "localhost"
+2015/09/25 21:24:35 [info] 5596#6324: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/25 21:24:35 [info] 5596#6324: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/25 21:24:39 [notice] 5596#6324: *4 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0 HTTP/1.1", host: "localhost"
+2015/09/25 21:24:39 [notice] 5596#6324: *4 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=&REQUEST=GetCapabilities&REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0 HTTP/1.1", host: "localhost"
+2015/09/25 21:24:39 [notice] 5596#6324: *4 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0 HTTP/1.1", host: "localhost"
+2015/09/25 21:24:39 [notice] 5596#6324: *4 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetCapabilities&OFFERING=&ACCEPTVERSIONS=1.0.0&OFFERING=&REQUEST=GetCapabilities&REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0 HTTP/1.1", host: "localhost"
+2015/09/25 21:24:39 [notice] 5596#6324: *4 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0 HTTP/1.1", host: "localhost"
+2015/09/25 21:24:39 [notice] 5596#6324: *4 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getcapabilities", args: "REQUEST=GetCapabilities&OFFERING=&ACCEPTVERSIONS=1.0.0&OFFERING=&REQUEST=GetCapabilities&REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0 HTTP/1.1", host: "localhost"
+2015/09/25 21:24:55 [info] 5596#6324: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/25 21:24:55 [info] 5596#6324: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/25 21:25:53 [notice] 5596#6324: *4 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0 HTTP/1.1", host: "localhost"
+2015/09/25 21:25:53 [notice] 5596#6324: *4 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=&REQUEST=GetCapabilities&REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0 HTTP/1.1", host: "localhost"
+2015/09/25 21:25:53 [notice] 5596#6324: *4 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0 HTTP/1.1", host: "localhost"
+2015/09/25 21:25:53 [notice] 5596#6324: *4 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetCapabilities&OFFERING=&ACCEPTVERSIONS=1.0.0&OFFERING=&REQUEST=GetCapabilities&REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0 HTTP/1.1", host: "localhost"
+2015/09/25 21:25:53 [notice] 5596#6324: *4 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0 HTTP/1.1", host: "localhost"
+2015/09/25 21:25:53 [notice] 5596#6324: *4 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getcapabilities", args: "REQUEST=GetCapabilities&OFFERING=&ACCEPTVERSIONS=1.0.0&OFFERING=&REQUEST=GetCapabilities&REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0 HTTP/1.1", host: "localhost"
+2015/09/25 21:26:05 [info] 5596#6324: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/25 21:26:30 [notice] 5596#6324: *4 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/25 21:26:30 [notice] 5596#6324: *4 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/25 21:26:30 [notice] 5596#6324: *4 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/25 21:26:30 [notice] 5596#6324: *4 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=FLUOROMETER&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/25 21:26:30 [notice] 5596#6324: *4 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/25 21:26:30 [notice] 5596#6324: *4 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/FLUOROMETER", args: "REQUEST=GetObservation&OFFERING=FLUOROMETER&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/25 21:26:45 [info] 5596#6324: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/25 21:37:22 [notice] 4400#2724: using the "select-boost" event method
+2015/09/25 21:37:22 [notice] 4400#2724: nginx/1.9.5.1 Lizard
+2015/09/25 21:37:22 [info] 4400#2724: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/25 21:37:22 [notice] 4400#2724: start worker processes
+2015/09/25 21:37:22 [notice] 4400#2724: start worker process 6784
+2015/09/25 21:37:23 [notice] 6784#9116: nginx/1.9.5.1 Lizard
+2015/09/25 21:37:23 [info] 6784#9116: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/25 21:37:23 [notice] 6784#9116: create thread 6780
+2015/09/25 21:37:23 [notice] 6784#9116: create thread 2656
+2015/09/25 21:37:23 [notice] 6784#9116: create thread 3980
+2015/09/25 22:03:33 [notice] 5132#6228: using the "select-boost" event method
+2015/09/25 22:03:33 [notice] 5132#6228: nginx/1.9.5.1 Lizard
+2015/09/25 22:03:33 [info] 5132#6228: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/25 22:03:33 [notice] 5132#6228: start worker processes
+2015/09/25 22:03:33 [notice] 5132#6228: start worker process 2668
+2015/09/25 22:03:33 [notice] 2668#4072: nginx/1.9.5.1 Lizard
+2015/09/25 22:03:33 [info] 2668#4072: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/25 22:03:33 [notice] 2668#4072: create thread 4544
+2015/09/25 22:03:33 [notice] 2668#4072: create thread 8316
+2015/09/25 22:03:33 [notice] 2668#4072: create thread 8884
+2015/09/25 22:04:06 [notice] 2668#4544: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:04:06 [notice] 2668#4544: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:04:06 [notice] 2668#4544: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:04:06 [notice] 2668#4544: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:04:06 [notice] 2668#4544: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:04:06 [notice] 2668#4544: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:04:19 [info] 2668#4544: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/25 22:04:57 [notice] 2668#4544: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:04:57 [notice] 2668#4544: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:04:57 [notice] 2668#4544: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:04:57 [notice] 2668#4544: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:04:57 [notice] 2668#4544: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:04:57 [notice] 2668#4544: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:05:18 [info] 2668#4544: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/25 22:22:50 [notice] 2668#4544: *4 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:22:50 [notice] 2668#4544: *4 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:22:50 [notice] 2668#4544: *4 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:22:50 [notice] 2668#4544: *4 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:22:50 [notice] 2668#4544: *4 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:22:50 [notice] 2668#4544: *4 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/25 22:23:08 [info] 2668#4544: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/25 22:25:28 [notice] 5132#6228: worker process 2668 exited with code 1
+2015/09/25 22:25:28 [notice] 5132#6228: start worker process 8832
+2015/09/25 22:25:28 [notice] 8832#7124: nginx/1.9.5.1 Lizard
+2015/09/25 22:25:28 [info] 8832#7124: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/25 22:25:28 [notice] 8832#7124: create thread 500
+2015/09/25 22:25:28 [notice] 8832#7124: create thread 9184
+2015/09/25 22:25:28 [notice] 8832#7124: create thread 8776
+2015/09/25 22:25:34 [notice] 5132#6228: worker process 8832 exited with code 1
+2015/09/25 22:25:34 [notice] 5132#6228: start worker process 8936
+2015/09/25 22:25:34 [notice] 8936#3428: nginx/1.9.5.1 Lizard
+2015/09/25 22:25:34 [info] 8936#3428: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/25 22:25:34 [notice] 8936#3428: create thread 5808
+2015/09/25 22:25:34 [notice] 8936#3428: create thread 8896
+2015/09/25 22:25:34 [notice] 8936#3428: create thread 932
+2015/09/28 15:37:08 [notice] 5224#7556: using the "select-boost" event method
+2015/09/28 15:37:08 [notice] 5224#7556: nginx/1.9.5.1 Lizard
+2015/09/28 15:37:08 [info] 5224#7556: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/28 15:37:08 [notice] 5224#7556: start worker processes
+2015/09/28 15:37:08 [notice] 5224#7556: start worker process 2776
+2015/09/28 15:37:09 [notice] 2776#2860: nginx/1.9.5.1 Lizard
+2015/09/28 15:37:09 [info] 2776#2860: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/28 15:37:09 [notice] 2776#2860: create thread 6492
+2015/09/28 15:37:09 [notice] 2776#2860: create thread 7852
+2015/09/28 15:37:09 [notice] 2776#2860: create thread 4272
+2015/09/28 15:37:21 [notice] 2776#6492: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=ctd HTTP/1.1", host: "localhost"
+2015/09/28 15:37:21 [notice] 2776#6492: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=ctd&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=ctd", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=ctd HTTP/1.1", host: "localhost"
+2015/09/28 15:37:21 [notice] 2776#6492: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=ctd HTTP/1.1", host: "localhost"
+2015/09/28 15:37:21 [notice] 2776#6492: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=ctd&ACCEPTVERSIONS=1.0.0&OFFERING=ctd&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=ctd", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=ctd HTTP/1.1", host: "localhost"
+2015/09/28 15:37:21 [notice] 2776#6492: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=ctd HTTP/1.1", host: "localhost"
+2015/09/28 15:37:21 [notice] 2776#6492: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/ctd", args: "REQUEST=GetObservation&OFFERING=ctd&ACCEPTVERSIONS=1.0.0&OFFERING=ctd&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=ctd", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=ctd HTTP/1.1", host: "localhost"
+2015/09/28 15:37:23 [error] 2776#6492: *1 CreateFile() "c:/sensor-observation-service/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=ctd"
+2015/09/28 15:37:31 [info] 2776#6492: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/28 15:37:31 [notice] 2776#6492: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/28 15:37:31 [notice] 2776#6492: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/28 15:37:31 [notice] 2776#6492: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/28 15:37:31 [notice] 2776#6492: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/28 15:37:31 [notice] 2776#6492: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/28 15:37:31 [notice] 2776#6492: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/28 15:37:42 [info] 2776#6492: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/28 15:37:42 [info] 2776#6492: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/28 15:37:42 [info] 2776#6492: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/28 16:06:18 [notice] 5224#7556: worker process 2776 exited with code 1
+2015/09/28 16:06:18 [notice] 5224#7556: start worker process 6680
+2015/09/28 16:06:18 [notice] 6680#3112: nginx/1.9.5.1 Lizard
+2015/09/28 16:06:18 [info] 6680#3112: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/28 16:06:18 [notice] 6680#3112: create thread 2420
+2015/09/28 16:06:18 [notice] 6680#3112: create thread 7320
+2015/09/28 16:06:18 [notice] 6680#3112: create thread 7000
+2015/09/28 16:06:53 [notice] 3124#824: using the "select-boost" event method
+2015/09/28 16:06:53 [notice] 3124#824: nginx/1.9.5.1 Lizard
+2015/09/28 16:06:53 [info] 3124#824: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/28 16:06:53 [notice] 3124#824: start worker processes
+2015/09/28 16:06:53 [notice] 3124#824: start worker process 7844
+2015/09/28 16:06:54 [notice] 7844#6520: nginx/1.9.5.1 Lizard
+2015/09/28 16:06:54 [info] 7844#6520: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/28 16:06:54 [notice] 7844#6520: create thread 3856
+2015/09/28 16:06:54 [notice] 7844#6520: create thread 504
+2015/09/28 16:06:54 [notice] 7844#6520: create thread 2744
+2015/09/28 16:07:12 [notice] 7844#3856: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/28 16:07:12 [notice] 7844#3856: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/28 16:07:12 [notice] 7844#3856: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/28 16:07:12 [notice] 7844#3856: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/28 16:07:12 [notice] 7844#3856: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/28 16:07:12 [notice] 7844#3856: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/28 16:07:21 [info] 7844#3856: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/28 16:07:21 [info] 7844#3856: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/28 16:19:42 [notice] 3124#824: worker process 7844 exited with code 40010004
+2015/09/29 09:18:54 [notice] 9208#384: using the "select-boost" event method
+2015/09/29 09:18:54 [notice] 9208#384: nginx/1.9.5.1 Lizard
+2015/09/29 09:18:54 [info] 9208#384: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 09:18:54 [notice] 9208#384: start worker processes
+2015/09/29 09:18:54 [notice] 9208#384: start worker process 9200
+2015/09/29 09:18:55 [notice] 9200#4528: nginx/1.9.5.1 Lizard
+2015/09/29 09:18:55 [info] 9200#4528: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 09:18:55 [notice] 9200#4528: create thread 1028
+2015/09/29 09:18:55 [notice] 9200#4528: create thread 9096
+2015/09/29 09:18:55 [notice] 9200#4528: create thread 6184
+2015/09/29 09:19:10 [notice] 9200#1028: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:19:10 [notice] 9200#1028: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:19:10 [notice] 9200#1028: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:19:10 [notice] 9200#1028: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:19:10 [notice] 9200#1028: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:19:10 [notice] 9200#1028: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:19:10 [error] 9200#1028: *1 failed to load inlined Lua code: content_by_lua(sensor-observation-service.conf:69):2: unexpected symbol near '#', client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:19:11 [error] 9200#1028: *2 CreateFile() "c:/sensor-observation-service/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD"
+2015/09/29 09:19:56 [notice] 9208#384: worker process 9200 exited with code 1
+2015/09/29 09:19:56 [notice] 9208#384: start worker process 2972
+2015/09/29 09:19:56 [notice] 2972#8484: nginx/1.9.5.1 Lizard
+2015/09/29 09:19:56 [info] 2972#8484: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 09:19:56 [notice] 2972#8484: create thread 5712
+2015/09/29 09:19:56 [notice] 2972#8484: create thread 6196
+2015/09/29 09:19:56 [notice] 2972#8484: create thread 7968
+2015/09/29 09:20:12 [notice] 8204#1440: using the "select-boost" event method
+2015/09/29 09:20:12 [notice] 8204#1440: nginx/1.9.5.1 Lizard
+2015/09/29 09:20:12 [info] 8204#1440: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 09:20:12 [notice] 8204#1440: start worker processes
+2015/09/29 09:20:12 [notice] 8204#1440: start worker process 5184
+2015/09/29 09:20:12 [notice] 5184#1452: nginx/1.9.5.1 Lizard
+2015/09/29 09:20:12 [info] 5184#1452: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 09:20:12 [notice] 5184#1452: create thread 8764
+2015/09/29 09:20:12 [notice] 5184#1452: create thread 5268
+2015/09/29 09:20:12 [notice] 5184#1452: create thread 4000
+2015/09/29 09:20:27 [notice] 5184#8764: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:20:27 [notice] 5184#8764: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:20:27 [notice] 5184#8764: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:20:27 [notice] 5184#8764: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:20:27 [notice] 5184#8764: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:20:27 [notice] 5184#8764: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:20:27 [error] 5184#8764: *1 failed to load inlined Lua code: content_by_lua(sensor-observation-service.conf:68):9: unfinished string near '"[', client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:20:37 [info] 5184#8764: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 09:20:37 [info] 5184#8764: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 09:20:37 [info] 5184#8764: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 09:20:47 [info] 5184#8764: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 09:22:17 [notice] 8204#1440: worker process 5184 exited with code 1
+2015/09/29 09:22:17 [notice] 8204#1440: start worker process 7576
+2015/09/29 09:22:17 [notice] 7576#8208: nginx/1.9.5.1 Lizard
+2015/09/29 09:22:17 [info] 7576#8208: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 09:22:17 [notice] 7576#8208: create thread 8832
+2015/09/29 09:22:17 [notice] 7576#8208: create thread 7092
+2015/09/29 09:22:17 [notice] 7576#8208: create thread 7788
+2015/09/29 09:22:36 [notice] 9036#8340: using the "select-boost" event method
+2015/09/29 09:22:36 [notice] 9036#8340: nginx/1.9.5.1 Lizard
+2015/09/29 09:22:36 [info] 9036#8340: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 09:22:36 [notice] 9036#8340: start worker processes
+2015/09/29 09:22:36 [notice] 9036#8340: start worker process 8792
+2015/09/29 09:22:36 [notice] 8792#6664: nginx/1.9.5.1 Lizard
+2015/09/29 09:22:36 [info] 8792#6664: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 09:22:36 [notice] 8792#6664: create thread 7616
+2015/09/29 09:22:36 [notice] 8792#6664: create thread 8428
+2015/09/29 09:22:36 [notice] 8792#6664: create thread 3228
+2015/09/29 09:22:51 [notice] 8792#7616: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:22:51 [notice] 8792#7616: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:22:51 [notice] 8792#7616: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:22:51 [notice] 8792#7616: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:22:51 [notice] 8792#7616: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:22:51 [notice] 8792#7616: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:22:51 [error] 8792#7616: *1 failed to load inlined Lua code: content_by_lua(sensor-observation-service.conf:68):9: unfinished string near ''[', client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:06 [info] 8792#7616: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 09:23:06 [info] 8792#7616: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 09:23:06 [info] 8792#7616: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 09:23:17 [notice] 8792#7616: *5 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:17 [notice] 8792#7616: *5 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:17 [notice] 8792#7616: *5 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:17 [notice] 8792#7616: *5 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:17 [notice] 8792#7616: *5 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:17 [notice] 8792#7616: *5 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:17 [error] 8792#7616: *5 failed to load inlined Lua code: content_by_lua(sensor-observation-service.conf:68):9: unfinished string near ''[', client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:19 [notice] 8792#7616: *6 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:19 [notice] 8792#7616: *6 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:19 [notice] 8792#7616: *6 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:19 [notice] 8792#7616: *6 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:19 [notice] 8792#7616: *6 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:19 [notice] 8792#7616: *6 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:19 [error] 8792#7616: *6 failed to load inlined Lua code: content_by_lua(sensor-observation-service.conf:68):9: unfinished string near ''[', client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:20 [notice] 8792#7616: *7 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:20 [notice] 8792#7616: *7 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:20 [notice] 8792#7616: *7 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:20 [notice] 8792#7616: *7 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:20 [notice] 8792#7616: *7 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:20 [notice] 8792#7616: *7 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:20 [error] 8792#7616: *7 failed to load inlined Lua code: content_by_lua(sensor-observation-service.conf:68):9: unfinished string near ''[', client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:21 [notice] 8792#7616: *8 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:21 [notice] 8792#7616: *8 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:21 [notice] 8792#7616: *8 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:21 [notice] 8792#7616: *8 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:21 [notice] 8792#7616: *8 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:21 [notice] 8792#7616: *8 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:23:21 [error] 8792#7616: *8 failed to load inlined Lua code: content_by_lua(sensor-observation-service.conf:68):9: unfinished string near ''[', client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:25:17 [notice] 9036#8340: worker process 8792 exited with code 1
+2015/09/29 09:25:17 [notice] 9036#8340: start worker process 8936
+2015/09/29 09:25:17 [notice] 8936#7720: nginx/1.9.5.1 Lizard
+2015/09/29 09:25:17 [info] 8936#7720: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 09:25:17 [notice] 8936#7720: create thread 8748
+2015/09/29 09:25:17 [notice] 8936#7720: create thread 7972
+2015/09/29 09:25:17 [notice] 8936#7720: create thread 3460
+2015/09/29 09:25:29 [notice] 5220#6508: using the "select-boost" event method
+2015/09/29 09:25:29 [notice] 5220#6508: nginx/1.9.5.1 Lizard
+2015/09/29 09:25:29 [info] 5220#6508: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 09:25:29 [notice] 5220#6508: start worker processes
+2015/09/29 09:25:29 [notice] 5220#6508: start worker process 504
+2015/09/29 09:25:30 [notice] 504#1364: nginx/1.9.5.1 Lizard
+2015/09/29 09:25:30 [info] 504#1364: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 09:25:30 [notice] 504#1364: create thread 932
+2015/09/29 09:25:30 [notice] 504#1364: create thread 4284
+2015/09/29 09:25:30 [notice] 504#1364: create thread 8860
+2015/09/29 09:25:54 [notice] 504#932: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:25:54 [notice] 504#932: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:25:54 [notice] 504#932: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:25:54 [notice] 504#932: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:25:54 [notice] 504#932: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:25:54 [notice] 504#932: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:26:06 [info] 504#932: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 09:28:22 [notice] 504#932: *3 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:22 [notice] 504#932: *3 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:22 [notice] 504#932: *3 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:22 [notice] 504#932: *3 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:22 [notice] 504#932: *3 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:22 [notice] 504#932: *3 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:26 [notice] 504#932: *3 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:26 [notice] 504#932: *3 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:26 [notice] 504#932: *3 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:26 [notice] 504#932: *3 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:26 [notice] 504#932: *3 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:26 [notice] 504#932: *3 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:32 [info] 504#932: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 09:28:33 [notice] 504#932: *3 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:33 [notice] 504#932: *3 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:33 [notice] 504#932: *3 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:33 [notice] 504#932: *3 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:33 [notice] 504#932: *3 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 09:28:33 [notice] 504#932: *3 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:12:25 [notice] 504#932: *5 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:12:25 [notice] 504#932: *5 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:12:25 [notice] 504#932: *5 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:12:25 [notice] 504#932: *5 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:12:25 [notice] 504#932: *5 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:12:25 [notice] 504#932: *5 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:12:36 [info] 504#932: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 10:13:36 [notice] 504#932: *5 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:13:36 [notice] 504#932: *5 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:13:36 [notice] 504#932: *5 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:13:36 [notice] 504#932: *5 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:13:36 [notice] 504#932: *5 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:13:36 [notice] 504#932: *5 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:16:34 [notice] 5220#6508: worker process 504 exited with code 1
+2015/09/29 10:16:34 [notice] 5220#6508: start worker process 8488
+2015/09/29 10:16:35 [notice] 8488#6648: nginx/1.9.5.1 Lizard
+2015/09/29 10:16:35 [info] 8488#6648: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 10:16:35 [notice] 8488#6648: create thread 3748
+2015/09/29 10:16:35 [notice] 8488#6648: create thread 8780
+2015/09/29 10:16:35 [notice] 8488#6648: create thread 7908
+2015/09/29 10:20:41 [notice] 8744#7320: using the "select-boost" event method
+2015/09/29 10:20:41 [notice] 8744#7320: nginx/1.9.5.1 Lizard
+2015/09/29 10:20:41 [info] 8744#7320: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 10:20:41 [notice] 8744#7320: start worker processes
+2015/09/29 10:20:41 [notice] 8744#7320: start worker process 4124
+2015/09/29 10:20:41 [notice] 4124#7204: nginx/1.9.5.1 Lizard
+2015/09/29 10:20:41 [info] 4124#7204: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 10:20:41 [notice] 4124#7204: create thread 5272
+2015/09/29 10:20:41 [notice] 4124#7204: create thread 8004
+2015/09/29 10:20:41 [notice] 4124#7204: create thread 8832
+2015/09/29 10:21:34 [notice] 4124#5272: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:21:34 [notice] 4124#5272: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:21:34 [notice] 4124#5272: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:21:34 [notice] 4124#5272: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:21:34 [notice] 4124#5272: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:21:34 [notice] 4124#5272: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:21:46 [info] 4124#5272: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 10:21:46 [info] 4124#5272: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 10:23:30 [notice] 8744#7320: worker process 4124 exited with code 1
+2015/09/29 10:23:30 [notice] 8744#7320: start worker process 8240
+2015/09/29 10:23:31 [notice] 8240#2756: nginx/1.9.5.1 Lizard
+2015/09/29 10:23:31 [info] 8240#2756: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 10:23:31 [notice] 8240#2756: create thread 900
+2015/09/29 10:23:31 [notice] 8240#2756: create thread 6236
+2015/09/29 10:23:31 [notice] 8240#2756: create thread 5560
+2015/09/29 10:23:50 [notice] 5220#1340: using the "select-boost" event method
+2015/09/29 10:23:50 [notice] 5220#1340: nginx/1.9.5.1 Lizard
+2015/09/29 10:23:50 [info] 5220#1340: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 10:23:50 [notice] 5220#1340: start worker processes
+2015/09/29 10:23:50 [notice] 5220#1340: start worker process 6700
+2015/09/29 10:23:50 [notice] 6700#8252: nginx/1.9.5.1 Lizard
+2015/09/29 10:23:50 [info] 6700#8252: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 10:23:50 [notice] 6700#8252: create thread 2600
+2015/09/29 10:23:50 [notice] 6700#8252: create thread 7648
+2015/09/29 10:23:50 [notice] 6700#8252: create thread 3892
+2015/09/29 10:24:04 [notice] 6700#2600: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:24:04 [notice] 6700#2600: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:24:04 [notice] 6700#2600: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:24:04 [notice] 6700#2600: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:24:04 [notice] 6700#2600: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:24:04 [notice] 6700#2600: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:24:07 [notice] 6700#2600: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:24:07 [notice] 6700#2600: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:24:07 [notice] 6700#2600: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:24:07 [notice] 6700#2600: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:24:07 [notice] 6700#2600: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:24:07 [notice] 6700#2600: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:24:16 [info] 6700#2600: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 10:24:16 [info] 6700#2600: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 10:58:22 [notice] 6700#2600: *4 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:58:22 [notice] 6700#2600: *4 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:58:22 [notice] 6700#2600: *4 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:58:22 [notice] 6700#2600: *4 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:58:22 [notice] 6700#2600: *4 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:58:22 [notice] 6700#2600: *4 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 10:58:32 [info] 6700#2600: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 10:58:42 [info] 6700#2600: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 11:06:13 [notice] 6700#2600: *7 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 11:06:13 [notice] 6700#2600: *7 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 11:06:13 [notice] 6700#2600: *7 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 11:06:13 [notice] 6700#2600: *7 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 11:06:13 [notice] 6700#2600: *7 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 11:06:13 [notice] 6700#2600: *7 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 11:06:23 [info] 6700#2600: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 11:06:24 [notice] 5220#1340: worker process 6700 exited with code 1
+2015/09/29 11:06:24 [notice] 5220#1340: start worker process 6644
+2015/09/29 11:06:24 [notice] 6644#6592: nginx/1.9.5.1 Lizard
+2015/09/29 11:06:24 [info] 6644#6592: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 11:06:24 [notice] 6644#6592: create thread 8336
+2015/09/29 11:06:24 [notice] 6644#6592: create thread 6496
+2015/09/29 11:06:24 [notice] 6644#6592: create thread 7728
+2015/09/29 11:06:39 [notice] 2536#8452: using the "select-boost" event method
+2015/09/29 11:06:39 [notice] 2536#8452: nginx/1.9.5.1 Lizard
+2015/09/29 11:06:39 [info] 2536#8452: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 11:06:39 [notice] 2536#8452: start worker processes
+2015/09/29 11:06:39 [notice] 2536#8452: start worker process 9012
+2015/09/29 11:06:39 [notice] 9012#8916: nginx/1.9.5.1 Lizard
+2015/09/29 11:06:39 [info] 9012#8916: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 11:06:39 [notice] 9012#8916: create thread 9128
+2015/09/29 11:06:39 [notice] 9012#8916: create thread 9136
+2015/09/29 11:06:39 [notice] 9012#8916: create thread 1336
+2015/09/29 11:31:26 [notice] 2536#8452: worker process 9012 exited with code 1
+2015/09/29 11:31:26 [notice] 2536#8452: start worker process 8668
+2015/09/29 11:31:26 [notice] 8668#5584: nginx/1.9.5.1 Lizard
+2015/09/29 11:31:26 [info] 8668#5584: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 11:31:26 [notice] 8668#5584: create thread 7264
+2015/09/29 11:31:26 [notice] 8668#5584: create thread 6956
+2015/09/29 11:31:26 [notice] 8668#5584: create thread 8284
+2015/09/29 11:31:39 [notice] 432#1404: using the "select-boost" event method
+2015/09/29 11:31:39 [notice] 432#1404: nginx/1.9.5.1 Lizard
+2015/09/29 11:31:39 [info] 432#1404: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 11:31:39 [notice] 432#1404: start worker processes
+2015/09/29 11:31:39 [notice] 432#1404: start worker process 316
+2015/09/29 11:31:40 [notice] 316#5652: nginx/1.9.5.1 Lizard
+2015/09/29 11:31:40 [info] 316#5652: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 11:31:40 [notice] 316#5652: create thread 5324
+2015/09/29 11:31:40 [notice] 316#5652: create thread 5012
+2015/09/29 11:31:40 [notice] 316#5652: create thread 6896
+2015/09/29 11:34:06 [notice] 316#5324: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 11:34:06 [notice] 316#5324: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 11:34:06 [notice] 316#5324: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 11:34:06 [notice] 316#5324: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 11:34:06 [notice] 316#5324: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 11:34:06 [notice] 316#5324: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 11:34:22 [info] 316#5324: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 11:34:22 [info] 316#5324: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 11:35:52 [info] 316#5324: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 11:35:52 [info] 316#5324: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 12:32:18 [info] 316#5324: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 12:32:28 [info] 316#5324: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 13:04:33 [notice] 432#1404: worker process 316 exited with code 1
+2015/09/29 13:04:33 [notice] 432#1404: start worker process 2512
+2015/09/29 13:04:33 [notice] 2512#10064: nginx/1.9.5.1 Lizard
+2015/09/29 13:04:33 [info] 2512#10064: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 13:04:33 [notice] 2512#10064: create thread 9784
+2015/09/29 13:04:33 [notice] 2512#10064: create thread 9664
+2015/09/29 13:04:33 [notice] 2512#10064: create thread 8788
+2015/09/29 13:06:15 [notice] 9152#7372: using the "select-boost" event method
+2015/09/29 13:06:15 [notice] 9152#7372: nginx/1.9.5.1 Lizard
+2015/09/29 13:06:15 [info] 9152#7372: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 13:06:15 [notice] 9152#7372: start worker processes
+2015/09/29 13:06:15 [notice] 9152#7372: start worker process 6700
+2015/09/29 13:06:15 [notice] 6700#3084: nginx/1.9.5.1 Lizard
+2015/09/29 13:06:15 [info] 6700#3084: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 13:06:15 [notice] 6700#3084: create thread 3464
+2015/09/29 13:06:15 [notice] 6700#3084: create thread 4884
+2015/09/29 13:06:15 [notice] 6700#3084: create thread 7588
+2015/09/29 13:06:38 [info] 6700#3464: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 13:06:38 [info] 6700#3464: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 13:06:56 [info] 6700#3464: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 13:20:45 [notice] 9152#7372: worker process 6700 exited with code 1
+2015/09/29 13:20:45 [notice] 9152#7372: start worker process 5128
+2015/09/29 13:20:45 [notice] 5128#9236: nginx/1.9.5.1 Lizard
+2015/09/29 13:20:45 [info] 5128#9236: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 13:20:45 [notice] 5128#9236: create thread 7732
+2015/09/29 13:20:45 [notice] 5128#9236: create thread 9868
+2015/09/29 13:20:46 [notice] 5128#9236: create thread 3460
+2015/09/29 13:24:01 [notice] 9028#9724: using the "select-boost" event method
+2015/09/29 13:24:01 [notice] 9028#9724: nginx/1.9.5.1 Lizard
+2015/09/29 13:24:01 [info] 9028#9724: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 13:24:01 [notice] 9028#9724: start worker processes
+2015/09/29 13:24:01 [notice] 9028#9724: start worker process 8772
+2015/09/29 13:24:01 [notice] 8772#4352: nginx/1.9.5.1 Lizard
+2015/09/29 13:24:01 [info] 8772#4352: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 13:24:01 [notice] 8772#4352: create thread 8180
+2015/09/29 13:24:01 [notice] 8772#4352: create thread 2564
+2015/09/29 13:24:01 [notice] 8772#4352: create thread 9204
+2015/09/29 13:24:25 [info] 8772#8180: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 13:24:25 [info] 8772#8180: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 13:34:38 [notice] 9028#9724: worker process 8772 exited with code 1
+2015/09/29 13:34:38 [notice] 9028#9724: start worker process 5000
+2015/09/29 13:34:38 [notice] 5000#8360: nginx/1.9.5.1 Lizard
+2015/09/29 13:34:38 [info] 5000#8360: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 13:34:38 [notice] 5000#8360: create thread 10180
+2015/09/29 13:34:38 [notice] 5000#8360: create thread 432
+2015/09/29 13:34:38 [notice] 5000#8360: create thread 388
+2015/09/29 13:36:50 [notice] 4536#3600: using the "select-boost" event method
+2015/09/29 13:36:50 [notice] 4536#3600: nginx/1.9.5.1 Lizard
+2015/09/29 13:36:50 [info] 4536#3600: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 13:36:50 [notice] 4536#3600: start worker processes
+2015/09/29 13:36:50 [notice] 4536#3600: start worker process 7932
+2015/09/29 13:36:50 [notice] 7932#9584: nginx/1.9.5.1 Lizard
+2015/09/29 13:36:50 [info] 7932#9584: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 13:36:50 [notice] 7932#9584: create thread 9288
+2015/09/29 13:36:50 [notice] 7932#9584: create thread 5560
+2015/09/29 13:36:50 [notice] 7932#9584: create thread 9396
+2015/09/29 13:38:23 [info] 7932#9288: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 13:38:33 [info] 7932#9288: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 13:40:44 [notice] 4536#3600: worker process 7932 exited with code 1
+2015/09/29 13:40:44 [notice] 4536#3600: start worker process 4968
+2015/09/29 13:40:44 [notice] 4968#2004: nginx/1.9.5.1 Lizard
+2015/09/29 13:40:44 [info] 4968#2004: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 13:40:44 [notice] 4968#2004: create thread 8484
+2015/09/29 13:40:44 [notice] 4968#2004: create thread 10236
+2015/09/29 13:40:44 [notice] 4968#2004: create thread 5324
+2015/09/29 13:40:50 [notice] 4536#3600: worker process 4968 exited with code 1
+2015/09/29 13:40:50 [notice] 4536#3600: start worker process 9548
+2015/09/29 13:40:50 [notice] 9548#1224: nginx/1.9.5.1 Lizard
+2015/09/29 13:40:50 [info] 9548#1224: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 13:40:50 [notice] 9548#1224: create thread 7488
+2015/09/29 13:40:50 [notice] 9548#1224: create thread 8724
+2015/09/29 13:40:50 [notice] 9548#1224: create thread 9912
+2015/09/29 13:57:23 [notice] 8116#3808: using the "select-boost" event method
+2015/09/29 13:57:23 [notice] 8116#3808: nginx/1.9.5.1 Lizard
+2015/09/29 13:57:23 [info] 8116#3808: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 13:57:23 [notice] 8116#3808: start worker processes
+2015/09/29 13:57:23 [notice] 8116#3808: start worker process 8984
+2015/09/29 13:57:23 [notice] 8984#8348: nginx/1.9.5.1 Lizard
+2015/09/29 13:57:23 [info] 8984#8348: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 13:57:23 [notice] 8984#8348: create thread 9144
+2015/09/29 13:57:23 [notice] 8984#8348: create thread 9016
+2015/09/29 13:57:23 [notice] 8984#8348: create thread 2856
+2015/09/29 13:57:41 [error] 8984#9144: *1 failed to load inlined Lua code: content_by_lua(sensor-observation-service.conf:137):17: '(' expected near '.', client: 127.0.0.1, server: , request: "GET /service/SOS/acceptversions/v1d0d0/request/getobservation/offering/ctd HTTP/1.1", host: "localhost"
+2015/09/29 13:57:59 [info] 8984#9144: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 13:57:59 [info] 8984#9144: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 14:01:14 [notice] 6896#1440: using the "select-boost" event method
+2015/09/29 14:01:14 [notice] 6896#1440: nginx/1.9.5.1 Lizard
+2015/09/29 14:01:14 [info] 6896#1440: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 14:01:14 [notice] 6896#1440: start worker processes
+2015/09/29 14:01:14 [notice] 6896#1440: start worker process 9356
+2015/09/29 14:01:14 [notice] 9356#8136: nginx/1.9.5.1 Lizard
+2015/09/29 14:01:14 [info] 9356#8136: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 14:01:14 [notice] 9356#8136: create thread 8196
+2015/09/29 14:01:14 [notice] 9356#8136: create thread 9828
+2015/09/29 14:01:15 [notice] 9356#8136: create thread 8076
+2015/09/29 14:01:20 [error] 9356#8196: *1 failed to load inlined Lua code: content_by_lua(sensor-observation-service.conf:136):17: '(' expected near '.', client: 127.0.0.1, server: , request: "GET /service/SOS/acceptversions/v1d0d0/request/getobservation/offering/ctd HTTP/1.1", host: "localhost"
+2015/09/29 14:01:29 [info] 9356#8196: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 14:01:39 [info] 9356#8196: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 14:08:18 [notice] 6896#1440: worker process 9356 exited with code 1
+2015/09/29 14:08:18 [notice] 6896#1440: start worker process 8176
+2015/09/29 14:08:18 [notice] 8176#7868: nginx/1.9.5.1 Lizard
+2015/09/29 14:08:18 [info] 8176#7868: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 14:08:18 [notice] 8176#7868: create thread 2700
+2015/09/29 14:08:18 [notice] 8176#7868: create thread 1360
+2015/09/29 14:08:18 [notice] 8176#7868: create thread 6200
+2015/09/29 14:08:41 [notice] 7992#7972: using the "select-boost" event method
+2015/09/29 14:08:41 [notice] 7992#7972: nginx/1.9.5.1 Lizard
+2015/09/29 14:08:41 [info] 7992#7972: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 14:08:41 [notice] 7992#7972: start worker processes
+2015/09/29 14:08:41 [notice] 7992#7972: start worker process 8208
+2015/09/29 14:08:42 [notice] 8208#8700: nginx/1.9.5.1 Lizard
+2015/09/29 14:08:42 [info] 8208#8700: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 14:08:42 [notice] 8208#8700: create thread 8492
+2015/09/29 14:08:42 [notice] 8208#8700: create thread 10176
+2015/09/29 14:08:42 [notice] 8208#8700: create thread 2336
+2015/09/29 14:09:01 [info] 8208#8492: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 14:09:11 [info] 8208#8492: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 14:24:17 [info] 8208#8492: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 14:24:27 [info] 8208#8492: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 14:55:24 [notice] 8208#8492: *7 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 14:55:24 [notice] 8208#8492: *7 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 14:55:24 [notice] 8208#8492: *7 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 14:55:24 [notice] 8208#8492: *7 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 14:55:24 [notice] 8208#8492: *7 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 14:55:24 [notice] 8208#8492: *7 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 14:55:31 [info] 8208#8492: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 15:01:12 [notice] 8208#8492: *9 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:01:12 [notice] 8208#8492: *9 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:01:12 [notice] 8208#8492: *9 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:01:12 [notice] 8208#8492: *9 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:01:12 [notice] 8208#8492: *9 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:01:12 [notice] 8208#8492: *9 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:01:22 [info] 8208#8492: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 15:01:32 [info] 8208#8492: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 15:06:10 [notice] 7992#7972: worker process 8208 exited with code 1
+2015/09/29 15:06:10 [notice] 7992#7972: start worker process 1472
+2015/09/29 15:06:10 [notice] 1472#10056: nginx/1.9.5.1 Lizard
+2015/09/29 15:06:10 [info] 1472#10056: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 15:06:10 [notice] 1472#10056: create thread 10232
+2015/09/29 15:06:10 [notice] 1472#10056: create thread 10192
+2015/09/29 15:06:10 [notice] 1472#10056: create thread 4744
+2015/09/29 15:06:13 [notice] 7992#7972: worker process 1472 exited with code 1
+2015/09/29 15:06:13 [notice] 7992#7972: start worker process 6600
+2015/09/29 15:06:13 [notice] 6600#6632: nginx/1.9.5.1 Lizard
+2015/09/29 15:06:13 [info] 6600#6632: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 15:06:13 [notice] 6600#6632: create thread 432
+2015/09/29 15:06:13 [notice] 6600#6632: create thread 504
+2015/09/29 15:06:13 [notice] 6600#6632: create thread 6820
+2015/09/29 15:06:35 [notice] 6372#5144: using the "select-boost" event method
+2015/09/29 15:06:35 [notice] 6372#5144: nginx/1.9.5.1 Lizard
+2015/09/29 15:06:35 [info] 6372#5144: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 15:06:35 [notice] 6372#5144: start worker processes
+2015/09/29 15:06:35 [notice] 6372#5144: start worker process 6500
+2015/09/29 15:06:35 [notice] 6500#8572: nginx/1.9.5.1 Lizard
+2015/09/29 15:06:35 [info] 6500#8572: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 15:06:35 [notice] 6500#8572: create thread 8064
+2015/09/29 15:06:35 [notice] 6500#8572: create thread 8748
+2015/09/29 15:06:35 [notice] 6500#8572: create thread 3664
+2015/09/29 15:08:03 [notice] 6372#5144: worker process 6500 exited with code 1
+2015/09/29 15:08:03 [notice] 6372#5144: start worker process 8552
+2015/09/29 15:08:03 [notice] 8552#9436: nginx/1.9.5.1 Lizard
+2015/09/29 15:08:03 [info] 8552#9436: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 15:08:03 [notice] 8552#9436: create thread 8068
+2015/09/29 15:08:03 [notice] 8552#9436: create thread 10204
+2015/09/29 15:08:03 [notice] 8552#9436: create thread 7608
+2015/09/29 15:08:15 [notice] 6816#7836: using the "select-boost" event method
+2015/09/29 15:08:15 [notice] 6816#7836: nginx/1.9.5.1 Lizard
+2015/09/29 15:08:15 [info] 6816#7836: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 15:08:15 [notice] 6816#7836: start worker processes
+2015/09/29 15:08:15 [notice] 6816#7836: start worker process 9016
+2015/09/29 15:08:16 [notice] 9016#6432: nginx/1.9.5.1 Lizard
+2015/09/29 15:08:16 [info] 9016#6432: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 15:08:16 [notice] 9016#6432: create thread 9604
+2015/09/29 15:08:16 [notice] 9016#6432: create thread 7588
+2015/09/29 15:08:16 [notice] 9016#6432: create thread 7144
+2015/09/29 15:08:55 [notice] 9016#9604: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:08:55 [notice] 9016#9604: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:08:55 [notice] 9016#9604: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:08:55 [notice] 9016#9604: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:08:55 [notice] 9016#9604: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:08:55 [notice] 9016#9604: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:09:05 [info] 9016#9604: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 15:09:15 [info] 9016#9604: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 15:22:31 [notice] 6816#7836: worker process 9016 exited with code 1
+2015/09/29 15:22:31 [notice] 6816#7836: start worker process 4668
+2015/09/29 15:22:31 [notice] 4668#2260: nginx/1.9.5.1 Lizard
+2015/09/29 15:22:31 [info] 4668#2260: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 15:22:31 [notice] 4668#2260: create thread 5412
+2015/09/29 15:22:31 [notice] 4668#2260: create thread 9292
+2015/09/29 15:22:31 [notice] 4668#2260: create thread 8748
+2015/09/29 15:22:35 [notice] 6816#7836: worker process 4668 exited with code 1
+2015/09/29 15:22:35 [notice] 6816#7836: start worker process 7912
+2015/09/29 15:22:35 [notice] 7912#7420: nginx/1.9.5.1 Lizard
+2015/09/29 15:22:35 [info] 7912#7420: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 15:22:35 [notice] 7912#7420: create thread 7176
+2015/09/29 15:22:35 [notice] 7912#7420: create thread 7932
+2015/09/29 15:22:35 [notice] 7912#7420: create thread 9408
+2015/09/29 15:22:41 [notice] 6816#7836: worker process 7912 exited with code 1
+2015/09/29 15:22:41 [notice] 6816#7836: start worker process 8088
+2015/09/29 15:22:41 [notice] 8088#7120: nginx/1.9.5.1 Lizard
+2015/09/29 15:22:41 [info] 8088#7120: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 15:22:41 [notice] 8088#7120: create thread 3980
+2015/09/29 15:22:41 [notice] 8088#7120: create thread 7408
+2015/09/29 15:22:41 [notice] 8088#7120: create thread 1864
+2015/09/29 15:23:03 [notice] 5316#4804: using the "select-boost" event method
+2015/09/29 15:23:03 [notice] 5316#4804: nginx/1.9.5.1 Lizard
+2015/09/29 15:23:03 [info] 5316#4804: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 15:23:03 [notice] 5316#4804: start worker processes
+2015/09/29 15:23:03 [notice] 5316#4804: start worker process 9596
+2015/09/29 15:23:04 [notice] 9596#10080: nginx/1.9.5.1 Lizard
+2015/09/29 15:23:04 [info] 9596#10080: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 15:23:04 [notice] 9596#10080: create thread 9064
+2015/09/29 15:23:04 [notice] 9596#10080: create thread 9520
+2015/09/29 15:23:04 [notice] 9596#10080: create thread 8960
+2015/09/29 15:23:36 [notice] 9596#9064: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:23:36 [notice] 9596#9064: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:23:36 [notice] 9596#9064: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:23:36 [notice] 9596#9064: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=FLUOROMETER&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:23:36 [notice] 9596#9064: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:23:36 [notice] 9596#9064: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/FLUOROMETER", args: "REQUEST=GetObservation&OFFERING=FLUOROMETER&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:23:46 [info] 9596#9064: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 15:23:56 [info] 9596#9064: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 15:32:46 [notice] 1600#8776: using the "select-boost" event method
+2015/09/29 15:32:46 [notice] 1600#8776: nginx/1.9.5.1 Lizard
+2015/09/29 15:32:46 [info] 1600#8776: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 15:32:46 [notice] 1600#8776: start worker processes
+2015/09/29 15:32:46 [notice] 1600#8776: start worker process 2276
+2015/09/29 15:32:46 [notice] 2276#7824: nginx/1.9.5.1 Lizard
+2015/09/29 15:32:46 [info] 2276#7824: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 15:32:46 [notice] 2276#7824: create thread 4804
+2015/09/29 15:32:46 [notice] 2276#7824: create thread 5316
+2015/09/29 15:32:46 [notice] 2276#7824: create thread 10072
+2015/09/29 15:32:53 [notice] 2276#4804: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:32:53 [notice] 2276#4804: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:32:53 [notice] 2276#4804: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:32:53 [notice] 2276#4804: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=FLUOROMETER&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:32:53 [notice] 2276#4804: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:32:53 [notice] 2276#4804: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/FLUOROMETER", args: "REQUEST=GetObservation&OFFERING=FLUOROMETER&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:33:03 [info] 2276#4804: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 15:33:13 [info] 2276#4804: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 15:38:20 [notice] 3272#9816: using the "select-boost" event method
+2015/09/29 15:38:20 [notice] 3272#9816: nginx/1.9.5.1 Lizard
+2015/09/29 15:38:20 [info] 3272#9816: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 15:38:20 [notice] 3272#9816: start worker processes
+2015/09/29 15:38:20 [notice] 3272#9816: start worker process 10120
+2015/09/29 15:38:20 [notice] 10120#9596: nginx/1.9.5.1 Lizard
+2015/09/29 15:38:20 [info] 10120#9596: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2015/09/29 15:38:20 [notice] 10120#9596: create thread 1784
+2015/09/29 15:38:20 [notice] 10120#9596: create thread 3480
+2015/09/29 15:38:20 [notice] 10120#9596: create thread 10160
+2015/09/29 15:38:29 [notice] 10120#1784: *1 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:38:29 [notice] 10120#1784: *1 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:38:29 [notice] 10120#1784: *1 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:38:29 [notice] 10120#1784: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=FLUOROMETER&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:38:29 [notice] 10120#1784: *1 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:38:29 [notice] 10120#1784: *1 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/FLUOROMETER", args: "REQUEST=GetObservation&OFFERING=FLUOROMETER&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:38:43 [info] 10120#1784: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 15:38:43 [info] 10120#1784: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 15:39:12 [info] 10120#1784: *1 client 127.0.0.1 closed keepalive connection
+2015/09/29 15:43:46 [notice] 10120#1784: *4 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:43:46 [notice] 10120#1784: *4 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:43:46 [notice] 10120#1784: *4 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:43:46 [notice] 10120#1784: *4 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:43:46 [notice] 10120#1784: *4 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:43:46 [notice] 10120#1784: *4 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:43:56 [info] 10120#1784: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 15:44:06 [info] 10120#1784: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 15:44:14 [notice] 10120#1784: *4 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:44:14 [notice] 10120#1784: *4 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:44:14 [notice] 10120#1784: *4 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:44:14 [notice] 10120#1784: *4 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:44:14 [notice] 10120#1784: *4 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:44:14 [notice] 10120#1784: *4 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:44:25 [info] 10120#1784: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 15:45:21 [notice] 10120#1784: *4 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:45:21 [notice] 10120#1784: *4 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:45:21 [notice] 10120#1784: *4 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:45:21 [notice] 10120#1784: *4 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:45:21 [notice] 10120#1784: *4 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:45:21 [notice] 10120#1784: *4 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/CTD", args: "REQUEST=GetObservation&OFFERING=CTD&ACCEPTVERSIONS=1.0.0&OFFERING=CTD&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=CTD HTTP/1.1", host: "localhost"
+2015/09/29 15:45:31 [info] 10120#1784: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/09/29 15:47:07 [notice] 10120#1784: *9 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:47:07 [notice] 10120#1784: *9 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:47:07 [notice] 10120#1784: *9 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:47:07 [notice] 10120#1784: *9 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=FLUOROMETER&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:47:07 [notice] 10120#1784: *9 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:47:07 [notice] 10120#1784: *9 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/FLUOROMETER", args: "REQUEST=GetObservation&OFFERING=FLUOROMETER&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:47:08 [info] 10120#1784: *9 client 127.0.0.1 closed keepalive connection
+2015/09/29 15:47:08 [notice] 10120#1784: *10 "^" matches "/", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:47:08 [notice] 10120#1784: *10 rewritten data: "/service/SOS", args: "ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:47:08 [notice] 10120#1784: *10 "^" matches "/service/SOS", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:47:08 [notice] 10120#1784: *10 rewritten data: "/service/SOS/acceptversions/v1d0d0", args: "REQUEST=GetObservation&OFFERING=FLUOROMETER&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:47:08 [notice] 10120#1784: *10 "^" matches "/service/SOS/acceptversions/v1d0d0", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:47:08 [notice] 10120#1784: *10 rewritten data: "/service/SOS/acceptversions/v1d0d0/request/getobservation/offering/FLUOROMETER", args: "REQUEST=GetObservation&OFFERING=FLUOROMETER&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER&REQUEST=GetObservation&REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER", client: 127.0.0.1, server: , request: "GET /?REQUEST=GetObservation&SERVICE=SOS&ACCEPTVERSIONS=1.0.0&OFFERING=FLUOROMETER HTTP/1.1", host: "localhost"
+2015/09/29 15:47:21 [info] 10120#1784: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
