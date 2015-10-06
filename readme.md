@@ -6,6 +6,7 @@ Observation Service][2] to be deployed against sensors outputting data to a URL.
  1. [Requirements](#requirements)
  1. [Installation](#installation)
  1. [Usage](#usage)
+ 2. [Acknowledgements](#acknowledgements)
  1. [To Do](#to-do)
  
 ##Requirements##
