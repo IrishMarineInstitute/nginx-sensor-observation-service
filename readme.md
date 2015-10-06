@@ -27,12 +27,7 @@ The [Lua JSON][7] library by Jeffrey Friedl is used within this configuration.
 
 ## To Do##
 
- - Tidy up the code - move some of the Lua to functions to be loaded from inline code
- - Add accepting POST HTTP requests for GetCapabilities
- - Implement GetObservation in HTTP POST
- - Implement DescribeSensor in HTTP GET and POST
- - Error handling, default settings
- - Create a Docker container for easy deployment(?)
+See open [TODO issues][9].
 
 [1]: http://www.opengeosptial.org
 [2]: http://www.opengeospatial.org/standards/sos
@@ -42,3 +37,4 @@ The [Lua JSON][7] library by Jeffrey Friedl is used within this configuration.
 [6]: https://www.nginx.com/resources/wiki/modules/lua/
 [7]: http://regex.info/blog/lua/json
 [8]: https://stedolan.github.io/jq/
+[9]: https://github.com/IrishMarineInstitute/nginx-sensor-observation-service/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+TODO
