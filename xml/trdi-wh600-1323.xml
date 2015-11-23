@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sml:PhysicalComponent gml:id="MY_SENSOR"
+<sml:PhysicalComponent gml:id="http://data.marine.ie/instrument/trdi-wh600-1323"
 xmlns:sml="http://www.opengis.net/sensorml/2.0"
 xmlns:swe="http://www.opengis.net/swe/2.0"
 xmlns:gml="http://www.opengis.net/gml/3.2"
@@ -9,7 +9,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xsi:schemaLocation="http://www.opengis.net/sensorml/2.0 http://schemas.opengis.net/sensorml/2.0/sensorML.xsd">
 	<gml:description>Teledyne RDI Workhorse 600KHz ADCP #1323</gml:description>
-	<gml:identifier codeSpace="uid">ie.marine.data/trdi-wh600-#1323</gml:identifier>
+	<gml:identifier codeSpace="uid">http://data.marine.ie/instrument/trdi-wh600-1323</gml:identifier>
 	
 	<sml:identification>
         <sml:IdentifierList>

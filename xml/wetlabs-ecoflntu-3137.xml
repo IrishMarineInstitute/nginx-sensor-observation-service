@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sml:PhysicalComponent gml:id="MY_SENSOR"
+<sml:PhysicalComponent gml:id="http://data.marine.ie/instrument/wetlabs-ecoflntu-3137"
 xmlns:sml="http://www.opengis.net/sensorml/2.0"
 xmlns:swe="http://www.opengis.net/swe/2.0"
 xmlns:gml="http://www.opengis.net/gml/3.2"
@@ -21,22 +21,5 @@ xsi:schemaLocation="http://www.opengis.net/sensorml/2.0 http://schemas.opengis.n
             </sml:identifier>
         </sml:IdentifierList>
     </sml:identification>
-	
-	<sml:outputs>
-		<sml:OutputList>
-			<sml:output name="CHLCount">
-				<sml:DataInterface>
-					<sml:data>
-						<swe:DataStream>
-							<swe:encoding>
-								<swe:StandardFormat mimeType="application/json"/>
-							</swe:encoding>
-							<swe:values xlink:href="http://spiddal.marine.ie/data/spiddal-fluorometer.json"/>
-						</swe:DataStream>
-					</sml:data>
-				</sml:DataInterface>
-			</sml:output>
-		</sml:OutputList>
-	</sml:outputs>
 				
 </sml:PhysicalComponent>
