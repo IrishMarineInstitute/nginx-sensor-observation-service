@@ -27,7 +27,10 @@ xsi:schemaLocation="http://www.opengis.net/sensorml/2.0 http://schemas.opengis.n
 				</swe:Quantity>
             </sml:output>
 			<sml:output name="CHL">
-                
+                <swe:Quantity definition="http://vocab.nerc.ac.uk/collection/P01/current/CPHLPR01/">
+					<swe:label>NTUCount</swe:label>
+					<swe:uom xlink:href="http://vocab.nerc.ac.uk/collection/P06/current/UGPL/"/>
+				</swe:Quantity>
             </sml:output>
 			<sml:output name="TurbidityWavelength">
                 <swe:Quantity definition="">
@@ -41,14 +44,13 @@ xsi:schemaLocation="http://www.opengis.net/sensorml/2.0 http://schemas.opengis.n
 					<swe:uom xlink:href="http://vocab.nerc.ac.uk/collection/P06/current/UUUU/"/>
 				</swe:Quantity>
             </sml:output>
-			<sml:output name="turbidity">
-                
+			<sml:output name="NTU">
+                <swe:Quantity definition="http://vocab.nerc.ac.uk/collection/P01/current/TURBXXXX/">
+					<swe:label>NTU</swe:label>
+					<swe:uom xlink:href="http://vocab.nerc.ac.uk/collection/P06/current/USTU/"/>
+				</swe:Quantity>
             </sml:output>
         </sml:OutputList>
     </sml:outputs>
-	
-	<sml:SimpleProcess>
-		
-	</sml:SimpleProcess>
 	
 </sml:PhysicalComponent>

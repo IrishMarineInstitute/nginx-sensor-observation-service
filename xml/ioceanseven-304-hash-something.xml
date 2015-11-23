@@ -22,4 +22,7 @@ xsi:schemaLocation="http://www.opengis.net/sensorml/2.0 http://schemas.opengis.n
         </sml:IdentifierList>
     </sml:identification>
 	
+	<sml:typeOf xlink:title="urn:ie.marine.data:instrument:idronaut.oceanseven.304"
+        xlink:href="http://data.marine.ie/instrument/idronaut-oceanseven-304"/>
+	
 </sml:PhysicalComponent>

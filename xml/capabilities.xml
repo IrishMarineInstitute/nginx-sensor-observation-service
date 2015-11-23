@@ -54,9 +54,33 @@
 					<ows:Get xlink:href="http://spiddal.marine.ie/SOS"/>
 				</ows:HTTP>
 			</ows:DCP>
+			<ows:Parameter name="offering">
+				<ows:AllowedValues>
+					<ows:Value>ie.marine.data:idronaut.oceanseven.304.XXXX</ows:Value>
+					<ows:Value>ie.marine.data:wetLabs.ecoflntu.3137</ows:Value>
+				</ows:AllowedValues>
+			</ows:Parameter>
 			<ows:Parameter name="responseFormat">
 				<ows:AllowedValues>
 					<ows:Value>application/json</ows:Value>
+				</ows:AllowedValues>
+			</ows:Parameter>
+			<ows:Parameter name="observedProperty">
+				<ows:AllowedValues>
+					<ows:Value>uk.ac.nerc.vocab:P07:CFSN0330</ows:Value>
+					<ows:Value>uk.ac.nerc.vocab:P01:CNDCST01</ows:Value>
+					<ows:Value>uk.ac.nerc.vocab:P01:CPHLPR01</ows:Value>
+					<ows:Value>uk.ac.nerc.vocab:P01:FCNTRW01</ows:Value>
+					<ows:Value>uk.ac.nerc.vocab:P01:NVLTOBS1</ows:Value>
+					<ows:Value>uk.ac.nerc.vocab:P01:PSALCU01</ows:Value>
+					<ows:Value>uk.ac.nerc.vocab:P01:SVELCV01</ows:Value>
+					<ows:Value>uk.ac.nerc.vocab:P01:TEMPPR01</ows:Value>
+					<ows:Value>uk.ac.nerc.vocab:P01:TURBXXXX</ows:Value>
+				</ows:AllowedValues>
+			</ows:Parameter>
+			<ows:Parameter name="timeZone">
+				<ows:AllowedValues>
+					<ows:Value>UTC</ows:Value>
 				</ows:AllowedValues>
 			</ows:Parameter>
 		</ows:OperationName>

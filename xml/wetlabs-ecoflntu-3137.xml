@@ -21,5 +21,8 @@ xsi:schemaLocation="http://www.opengis.net/sensorml/2.0 http://schemas.opengis.n
             </sml:identifier>
         </sml:IdentifierList>
     </sml:identification>
-				
+	
+	<sml:typeOf xlink:title="urn:ie.marine.data:instrument:wetlabs.ecoflntu"
+        xlink:href="http://data.marine.ie/wetlabs-ecoflntu"/>
+	
 </sml:PhysicalComponent>
